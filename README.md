@@ -10,4 +10,4 @@
 *Game Instructions for Mobile*:
 
 1. Game begins with the user touching any part of screen for first color in sequence to show.
-2. Same as above.
+2. Same as step 2 from above.
