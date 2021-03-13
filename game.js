@@ -8,7 +8,7 @@ var level = 0;
 
 // Begin Game - If game has not started (level=0), document awaits a keyboard press. Next color in sequence is shown and game begins.
 
-$(document).on("keyup", function() {
+$(document).on("onkeyup", function() {
   if (level === 0) {
     nextInSequence();
   }
