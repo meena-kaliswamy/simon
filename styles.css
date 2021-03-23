@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-color: #011F3F;
+  overflow-x: hidden;
 }
 
 #level-title {
@@ -12,16 +13,21 @@ body {
 
 .container {
   display: block;
-  width: 50%;
-  margin: auto;
+  margin-top: 40px;
+  
+  /* center */
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
+  height: 180px;
+  width: 180px;
+  border: 8px solid black;
   border-radius: 20%;
 }
 
@@ -49,4 +55,18 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+@media only screen and (max-width: 1050px) {
+  #level-title {
+    font-size: 1.5rem;
+    margin-top: 18%;
+  }
+
+  .btn {
+    margin: 8px;
+    height: 13vh;
+    width: 200px;
+    border-radius: 10%;
+  }
 }
