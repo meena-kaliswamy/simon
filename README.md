@@ -5,7 +5,7 @@
 *Game Instructions for Desktops and Laptops*:
 
 1. Game begins with the user pressing any key on the keyboard for first color in sequence to show.
-2. The user selects the computer-generated color. If correctly selected, the computer generates the next color in sequence. Otherwise, game restarts (look at step 1).
+2. The user selects the sequence of computer-generated colors. If correctly selected, the computer generates the next color in sequence. Otherwise, game restarts (look at step 1).
 
 *Game Instructions for Mobile*:
 
